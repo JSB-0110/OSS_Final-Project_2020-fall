@@ -31,7 +31,8 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### 비트 코인은 무엇인가?
 
 >"비트코인은 새로운 지불 시스템이자 완전한 디지털 화폐를 가능하게 하는 합의된 네트워크입니다. 중앙 권력이나 중간 상인이 없이 사용자에 의해 작동하는 최초의 분권화된 P2P 지불망입니다. 사용자 관점에서 볼 때, 비트코인은 인터넷 현금과 매우 유사합니다. 비트코인은 현존하는 가장 탁월한 삼식 부기 시스템이기도 합니다." 
->**- Bitcoin.org. [비트코인 자주 묻는 질문](https://bitcoin.org/ko/faq)**
+> &nbsp;
+> **- Bitcoin.org. [비트코인 자주 묻는 질문](https://bitcoin.org/ko/faq)**
 
 &nbsp;2008년, 나카모토 사토시는 공개키-개인키 암호기술과 디지털 서명, 그리고 P2P 기술을 융합하여 블록체인이라고 알려지게 된 새로운 분산 데이터베이스를 개발함으로써 탈중앙화된 결제 시스템을 만들어냈다. 이것이 지금 우리가 잘 알고 있는 비트 코인이다.
 
@@ -41,7 +42,8 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### Transifex는 무엇인가?
 
 >"**트랜시펙스**(Transifex)는 세계화 관리 시스템 (GMS)이라고도 알려진, 웹 기반의 번역 플랫폼이다. 그것은 소프트웨어, 설명문서와 웹사이트와 같은 자주 업데이트되는 내용이 있는 기술적인 프로젝트를 대상으로 하며 개발자가 사용하는 도구와 통합하여 지역화 워크플로의 자동화를 권장한다. 트랜시펙스는 Software as a Service로 제공하고 상용 계획과 오픈 소스 프로젝트를 위한 무료 계정을 둘 다 갖춘다."
->**-   위키백과. [트랜시픽스](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9E%9C%EC%8B%9C%ED%8E%99%EC%8A%A4)**
+> &nbsp;
+>**- 위키백과. [트랜시픽스](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9E%9C%EC%8B%9C%ED%8E%99%EC%8A%A4)**
 
 &nbsp;Transifex는 위키백과와 비슷한 집단 지성을 활용하는 번역 플랫폼이다. 사용법은 간단하다. 번역을 원하는 컨텐츠를 플랫폼에 올리면, 전세계 사람들이 자유롭게 팀에 가입하여 자신이 사용할 수 있는 언어로 번역을 한다.
 
@@ -63,6 +65,8 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 &nbsp;Bitcoin Core 프로그램은 https://bitcoincore.org/ 사이트에서 다운 받을 수 있다. 12월 20일 기준 0.20.x 버전까지 오픈되어 있으며, 내가 번역에 참가한 0.21x 버전은 아쉽게도 아직 나와있지 않다.
 
+&nbsp;
+&nbsp;
 ### 번역 진행
 &nbsp;Bitcoin 0.21.x의 총 string은 987개, 단어 5577개이다.
 
@@ -72,7 +76,8 @@ Copyright © 2020 Jeong Sebin, Ajou University
 - Transifex의 경우 많은 사람이 한꺼번에 번역에 참여하는 프로젝트이기 때문에 각자의 스타일에 따라 번역이 중구난방이며 매끄럽게 끝나지 않는다. 
 - Bitcoin 프로젝트는 프로젝트를 시작할때 새로운 업그레이드 버전에 전단계 버전의 string을 그대로 가져온다는 특징이 있다. 이는 처음부터 모든 것을 번역하지 않아도 되게 해주며 부담을 줄여주는 좋은 기능이나, 막상 확인해보니 string의 내용 자체가 달라져서 번역이 쓸모 없는 경우 또한 존재하였다.
 - 비트 코인에서만 사용하는 단어들, 사전에 등록되어 있지 않은 단어들이 꽤 존재한다.
-
+&nbsp;
+&nbsp;
 &nbsp;따라서 위 문제점들에 신경을 쓰며 번역을 하였다.
 &nbsp;
 
@@ -92,12 +97,13 @@ Copyright © 2020 Jeong Sebin, Ajou University
 - %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. 순서가 바뀌면 안 된다는 뜻이다.
 
 &nbsp;3. 종결 어미는 '하십시오'에 맞춰 최대한으로 통일하였다. 관리자가 입력한 첫번째 string의 종결 어미였기 때문에 이를 중심으로 한 것이다.
+&nbsp;
 | &nbsp;&nbsp;&nbsp;&nbsp; 종결 어미 | 하십시오체&nbsp; &nbsp;&nbsp;&nbsp;|
-| ------: | ---- |
-| 평서문| -(습/ㅂ)니다 |
+| ----: | ---- |
+| 평서문 | -(습/ㅂ)니다 |
 | 의문문 | -(습/ㅂ)니까 |
-| 명령문| -(ㅂ)시오 |
-| 청유문| -(ㅂ)시다 |
+| 명령문 | -(ㅂ)시오 |
+| 청유문 | -(ㅂ)시다 |
 
 &nbsp;4. 번역이 통일되지 않은 단어를 상황에 맞게 통일시켰다.
 &nbsp;
@@ -124,9 +130,9 @@ ex) Transition
 ![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_my_translations.PNG)
 < https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000>
 
--  직접적으로 수정한 string은 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다.
- 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
- - 총 270개의 string, 2439개의 단어를 손보았으며, 나머지는 다른 분들의 번역을 참고하여 최대한 살리려고 노력하였다.
+-  직접적으로 수정한 string은 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다. 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
+- 총 270개의 string, 2439개의 단어를 손보았으며, 나머지는 다른 분들의 번역을 참고하여 최대한 살리려고 노력하였다.
+- 검색되지 않은 string 또한 모두 검토한 string들이다.
 
 &nbsp;
 ## 결론 및 소감 <a id="chapter-5"></a>
