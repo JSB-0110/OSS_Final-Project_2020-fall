@@ -16,7 +16,7 @@ Copyright © Bitcoin Project 2009-2020 Released under the MIT license
 Copyright © 2020 Jeong Sebin, Ajou University 
 
 ## 목차
-[TOC]
+
 * [서론](#서론)
 * [이론적 배경](#이론적-배경)
 * [본론](#본론)
