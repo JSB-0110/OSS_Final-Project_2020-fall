@@ -1,7 +1,9 @@
 # OSS_Final-Project_2020-fall
 ### SCE331_ 오픈소스SW입문(F083-2) 기말 프로젝트
 Open Source Software 도구 한글 번역 기여하기 : Bitcoin 0.21.x
+
 소프트웨어학과 201920707 정세빈
+
 제출일 : 2020.12.20.
 
 ## Transifex Bitcoin 0.21.x Translation Project
@@ -12,7 +14,12 @@ Copyright © Bitcoin Project 2009-2020 Released under the MIT license
 Copyright © 2020 Jeong Sebin, Ajou University 
 
 ## 목차
-[TOD]
+* (서론)[##서론]
+* (이론적 배경)[##이론적-배경]
+* (본론)[##본론]
+* (결과물)[##결과물]
+* (결론 및 소감)[##결론-및-소감]
+* (참고 자료)[##참고-자료]
 
 &nbsp;
 ## 서론
@@ -74,6 +81,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
 - 비트 코인에서만 사용하는 단어들, 사전에 등록되어 있지 않은 단어들이 꽤 존재한다.
 
 &nbsp;
+&nbsp;
 &nbsp;따라서 위 문제점들에 신경을 쓰며 번역을 하였다.
 &nbsp;
 
@@ -95,16 +103,16 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 &nbsp;3. 종결 어미는 '하십시오'에 맞춰 최대한으로 통일하였다. 관리자가 입력한 첫번째 string의 종결 어미였기 때문에 이를 중심으로 한 것이다.
 
-| 종결 어미 | 하십시오체 |
-| ------ | ------ |
-| 평서문 | -(습/ㅂ)니다 |
-| 의문문 | -(습/ㅂ)니까 |
-| 명령문 | -(ㅂ)시오 |
-| 청유문 | -(ㅂ)시다 |
+|종결 어미 | 하십시오체|
+|----: | ----|
+|평서문 | -(습/ㅂ)니다|
+|의문문 | -(습/ㅂ)니까|
+|명령문 | -(ㅂ)시오|
+|청유문 | -(ㅂ)시다|
 
 &nbsp;4. 번역이 통일되지 않은 단어를 상황에 맞게 통일시켰다.
-&nbsp;
-ex) Transition
+
+&nbsp;ex) Transition
 - transition이 PSBT로 쓰일경우 -> 트랜지션
 - transitiion이 그냥 홀로 쓰인 경우 -> 거래
 
