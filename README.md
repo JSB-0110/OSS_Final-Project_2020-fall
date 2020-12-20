@@ -1,4 +1,4 @@
-# OSS_Final-Project_2020-fall
+[]([url](url))# OSS_Final-Project_2020-fall
 ### SCE331_ 오픈소스SW입문(F083-2) 기말 프로젝트
 Open Source Software 도구 한글 번역 기여하기 : Bitcoin 0.21.x
 소프트웨어학과 201920707 정세빈
@@ -51,7 +51,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
 &nbsp;
 ## 본론 <a id="chapter-3"></a>
 ### 번역 대상: Bitcoin Core 0.21.x
-![transifex_bitcoin_main_screen](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_main_screen.PNG)
+![transifex_bitcoin_main_screen](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_main_screen.PNG)
 
 &nbsp;Bitcoin은 2012년 7월부터 Transifex 사이트를 통해 번역 프로젝트를 시작해왔다.
 
@@ -66,7 +66,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### 번역 진행
 &nbsp;Bitcoin 0.21.x의 총 string은 987개, 단어 5577개이다.
 
-![transifex_0.21.x_korean](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_0.21.x_korean.PNG)
+![transifex_0.21.x_korean](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_0.21.x_korean.PNG)
 
 &nbsp;내가 번역하면서 찾은 문제점은 다음과 같다.
 - Transifex의 경우 많은 사람이 한꺼번에 번역에 참여하는 프로젝트이기 때문에 각자의 스타일에 따라 번역이 중구난방이며 매끄럽게 끝나지 않는다. 
@@ -78,17 +78,17 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 &nbsp;1. 번역의 뼈대는 번역이 100퍼센트 완료 되어있는 프랑스어 번역과 중국어 번역을 참고하였다.
 
-![transifex_bitcoin_languages](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_languages.PNG)
+![transifex_bitcoin_languages](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_languages.PNG)
 
 - 프랑스어: 유일하게 review가 되어있으며, review가 100퍼센트 되어있는 언어.
 -  &nbsp; &nbsp; 중국어: 한국어와 같이 라틴어/알파벳을 글자로 사용하지 않는 언어.
 
 &nbsp;2. 프로젝트 매니저의 공지사항을 숙지하였다.
-![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_anouncement_2.bmp)
+![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_2.bmp)
 - &는 위치 네비게이션을 위한 문자이기 때문에 무조건 지정된 글자의 앞에 두어야한다. 따라서 Warning을 무시하고 괄호를 사용하였다.
 - %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다.
 
-![transifex_anouncement_1](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_anouncement_1.bmp)
+![transifex_anouncement_1](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_1.bmp)
 - %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. 순서가 바뀌면 안 된다는 뜻이다.
 
 &nbsp;3. 종결 어미는 '하십시오'에 맞춰 최대한으로 통일하였다. 관리자가 입력한 첫번째 string의 종결 어미였기 때문에 이를 중심으로 한 것이다.
@@ -121,7 +121,7 @@ ex) Transition
  
 &nbsp;
 ## 결과물 <a id="chapter-4"></a>
-![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_my_translations.PNG)
+![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_my_translations.PNG)
 < https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000>
 
 -  직접적으로 수정한 string은 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다.
