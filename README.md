@@ -143,9 +143,13 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000
 
--  직접적으로 수정한 string은 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다. 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
+
 - 총 270개의 string, 2439개의 단어를 손보았으며, 나머지는 다른 분들의 번역을 참고하여 최대한 살리려고 노력하였다.
+-  bitcoin 팀에 가입되어 있는 경우 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다. 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
 - 검색되지 않은 string 또한 모두 검토한 string들이다.
+
+- 아래 링크에서도 번역된 string을 감상할 수 있다.
+https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/for_use_bitcoin_qt-translation-021x_ko.ts
 
 &nbsp;
 ## 결론 및 소감
