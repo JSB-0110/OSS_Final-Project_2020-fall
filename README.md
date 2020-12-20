@@ -9,7 +9,7 @@ Open Source Software 도구 한글 번역 기여하기 : Bitcoin 0.21.x
 ## Transifex Bitcoin 0.21.x Translation Project
 #### Transifex BitcoinCore 0.21.x Korean
 
-https://www.transifex.com/bitcoin/bitcoin/language/ko/
+https://www.transifex.com/bitcoin/bitcoin/
 
 Copyright © Bitcoin Project 2009-2020 Released under the MIT license
 #### Transifex Bitcoin 0.21.x Translation Project Report
@@ -141,14 +141,15 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 ![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_my_translations.PNG)
 
+-  bitcoin 팀에 가입되어 있는 경우 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다. 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
+
 https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000
 
-
 - 총 270개의 string, 2439개의 단어를 손보았으며, 나머지는 다른 분들의 번역을 참고하여 최대한 살리려고 노력하였다.
--  bitcoin 팀에 가입되어 있는 경우 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다. 혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
 - 검색되지 않은 string 또한 모두 검토한 string들이다.
 
 - 아래 링크에서도 번역된 string을 감상할 수 있다.
+
 https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/for_use_bitcoin_qt-translation-021x_ko.ts
 
 &nbsp;
