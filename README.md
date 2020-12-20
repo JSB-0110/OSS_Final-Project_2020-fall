@@ -71,10 +71,12 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 &nbsp;Bitcoin Core 프로그램은 https://bitcoincore.org/ 사이트에서 다운 받을 수 있다. 12월 20일 기준 0.20.x 버전까지 오픈되어 있으며, 내가 번역에 참가한 0.21x 버전은 아쉽게도 아직 나와있지 않다.
 
+---
+
 &nbsp;
 &nbsp;
 ### 번역 진행
-&nbsp;Bitcoin 0.21.x의 총 string은 987개, 단어 5577개이다.
+&nbsp;Bitcoin 0.21.x은 총 987개의 string과 5577개의 단어로 이루어져있다.
 
 ![transifex_0.21.x_korean](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_0.21.x_korean.PNG)
 
