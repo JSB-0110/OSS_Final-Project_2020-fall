@@ -31,9 +31,9 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### 비트 코인은 무엇인가?
 
 >"비트코인은 새로운 지불 시스템이자 완전한 디지털 화폐를 가능하게 하는 합의된 네트워크입니다. 중앙 권력이나 중간 상인이 없이 사용자에 의해 작동하는 최초의 분권화된 P2P 지불망입니다. 사용자 관점에서 볼 때, 비트코인은 인터넷 현금과 매우 유사합니다. 비트코인은 현존하는 가장 탁월한 삼식 부기 시스템이기도 합니다." 
->#### - Bitcoin.org. [비트코인 자주 묻는 질문](https://bitcoin.org/ko/faq)
+>**- Bitcoin.org. [비트코인 자주 묻는 질문](https://bitcoin.org/ko/faq)**
 
- &nbsp;2008년, 나카모토 사토시는 공개키-개인키 암호기술과 디지털 서명, 그리고 P2P 기술을 융합하여 블록체인이라고 알려지게 된 새로운 분산 데이터베이스를 개발함으로써 탈중앙화된 결제 시스템을 만들어냈다. 이것이 지금 우리가 잘 알고 있는 비트 코인이다.
+&nbsp;2008년, 나카모토 사토시는 공개키-개인키 암호기술과 디지털 서명, 그리고 P2P 기술을 융합하여 블록체인이라고 알려지게 된 새로운 분산 데이터베이스를 개발함으로써 탈중앙화된 결제 시스템을 만들어냈다. 이것이 지금 우리가 잘 알고 있는 비트 코인이다.
 
 &nbsp;비트 코인은 전자메일을 떠올리면 이해하기 쉬운 구조이다. 사람들은 누구의 허락 없이 가명의 계정을 만들 수 있다. 만든 계정으로 ‘거래’를 실행하고, 여기에 개인키로 디지털 서명을 함으로써 전 세계 누구와도 몇 분 안에 비트 코인을 주고받을 수 있다. 어떠한 거래에 대한 서명이 이루어지면, 비트 코인 네트워크의 구성원들은 그 거래가 유효하다는 것을 확인한 후 해당 비트 코인 계정의 잔고를 업데이트한다. 이 업데이트는 비트 코인 프로토콜의 적용을 받는 비트 코인 블록체인(공동의 저장 장치)에 기록된다. 비트 코인의 결제 네트워크가 P2P 네트워크에 의존하고 있으므로 회복력이 강하고 셧다운 하기 어려우며, 전 세계의 컴퓨터들에 동일한 복제본이 저장되어 있다. 게다가 보안성과 안정성을 위해 정보를 추가, 수정, 삭제하는 것이 매우 복잡하게 되어있기 때문에 비트코인 네트워크에 합류하는 누구든지 비트코인 블록체인의 전체 기록을 내려받거나 검토할 수 있고 비트코인 거래를 추적할 수 있다.
 
@@ -41,7 +41,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### Transifex는 무엇인가?
 
 >"**트랜시펙스**(Transifex)는 세계화 관리 시스템 (GMS)이라고도 알려진, 웹 기반의 번역 플랫폼이다. 그것은 소프트웨어, 설명문서와 웹사이트와 같은 자주 업데이트되는 내용이 있는 기술적인 프로젝트를 대상으로 하며 개발자가 사용하는 도구와 통합하여 지역화 워크플로의 자동화를 권장한다. 트랜시펙스는 Software as a Service로 제공하고 상용 계획과 오픈 소스 프로젝트를 위한 무료 계정을 둘 다 갖춘다."
->#### -   위키백과. [트랜시픽스](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9E%9C%EC%8B%9C%ED%8E%99%EC%8A%A4)
+>**-   위키백과. [트랜시픽스](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9E%9C%EC%8B%9C%ED%8E%99%EC%8A%A4)**
 
 &nbsp;Transifex는 위키백과와 비슷한 집단 지성을 활용하는 번역 플랫폼이다. 사용법은 간단하다. 번역을 원하는 컨텐츠를 플랫폼에 올리면, 전세계 사람들이 자유롭게 팀에 가입하여 자신이 사용할 수 있는 언어로 번역을 한다.
 
@@ -51,6 +51,8 @@ Copyright © 2020 Jeong Sebin, Ajou University
 &nbsp;
 ## 본론 <a id="chapter-3"></a>
 ### 번역 대상: Bitcoin Core 0.21.x
+![transifex_bitcoin_main_screen](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_main_screen.PNG)
+
 &nbsp;Bitcoin은 2012년 7월부터 Transifex 사이트를 통해 번역 프로젝트를 시작해왔다.
 
 &nbsp;Transifex에는 두 가지의 bitcoin 관련 프로젝트가 있다. Bitcoin.org와 Bitcoin이다. Bitcoin.org는 비트코인을 설명하고 소개하는 사이트 글을 번역하는 팀이고, Bitcoin은 Bitcoin Core, 클라이언트를 구동하는 비트코인 소프트웨어의 String을 번역하는 팀이다.
@@ -64,21 +66,30 @@ Copyright © 2020 Jeong Sebin, Ajou University
 ### 번역 진행
 &nbsp;Bitcoin 0.21.x의 총 string은 987개, 단어 5577개이다.
 
+![transifex_0.21.x_korean](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_0.21.x_korean.PNG)
+
 &nbsp;내가 번역하면서 찾은 문제점은 다음과 같다.
->- Transifex의 경우 많은 사람이 한꺼번에 번역에 참여하는 프로젝트이기 때문에 각자의 스타일에 따라 번역이 중구난방이며 매끄럽게 끝나지 않는다. 
->- Bitcoin 프로젝트는 프로젝트를 시작할때 새로운 업그레이드 버전에 전단계 버전의 string을 그대로 가져온다는 특징이 있다. 이는 처음부터 모든 것을 번역하지 않아도 되게 해주며 부담을 줄여주는 좋은 기능이나, 막상 확인해보니 string의 내용 자체가 달라져서 번역이 쓸모 없는 경우 또한 존재하였다.
->- 비트 코인에서만 사용하는 단어들, 사전에 등록되어 있지 않은 단어들이 꽤 존재한다.
+- Transifex의 경우 많은 사람이 한꺼번에 번역에 참여하는 프로젝트이기 때문에 각자의 스타일에 따라 번역이 중구난방이며 매끄럽게 끝나지 않는다. 
+- Bitcoin 프로젝트는 프로젝트를 시작할때 새로운 업그레이드 버전에 전단계 버전의 string을 그대로 가져온다는 특징이 있다. 이는 처음부터 모든 것을 번역하지 않아도 되게 해주며 부담을 줄여주는 좋은 기능이나, 막상 확인해보니 string의 내용 자체가 달라져서 번역이 쓸모 없는 경우 또한 존재하였다.
+- 비트 코인에서만 사용하는 단어들, 사전에 등록되어 있지 않은 단어들이 꽤 존재한다.
 
 &nbsp;따라서 위 문제점들에 신경을 쓰며 번역을 하였다.
 &nbsp;
-&nbsp;1. 프로젝트 매니저의 공지사항을 숙지하였다.
->- &는 위치 네비게이션을 위한 문자이기 때문에 무조건 지정된 글자의 앞에 두어야한다. 따라서 Warning이 뜸에도 괄호를 사용하였다.
->- %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다.
->- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. 순서가 바뀌면 안 된다는 뜻이다.
 
-&nbsp;2. 번역의 뼈대는 번역이 100퍼센트 완료 되어있는 프랑스어 번역과 중국어 번역을 참고하였다.
-> - 프랑스어: 유일하게 review가 되어있으며, review가 100퍼센트 되어있는 언어.
-> -  &nbsp; &nbsp; 중국어: 한국어와 같이 라틴어/알파벳을 글자로 사용하지 않는 언어.
+&nbsp;1. 번역의 뼈대는 번역이 100퍼센트 완료 되어있는 프랑스어 번역과 중국어 번역을 참고하였다.
+
+![transifex_bitcoin_languages](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_languages.PNG)
+
+- 프랑스어: 유일하게 review가 되어있으며, review가 100퍼센트 되어있는 언어.
+-  &nbsp; &nbsp; 중국어: 한국어와 같이 라틴어/알파벳을 글자로 사용하지 않는 언어.
+
+&nbsp;2. 프로젝트 매니저의 공지사항을 숙지하였다.
+![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_anouncement_2.bmp)
+- &는 위치 네비게이션을 위한 문자이기 때문에 무조건 지정된 글자의 앞에 두어야한다. 따라서 Warning을 무시하고 괄호를 사용하였다.
+- %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다.
+
+![transifex_anouncement_1](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_anouncement_1.bmp)
+- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. 순서가 바뀌면 안 된다는 뜻이다.
 
 &nbsp;3. 종결 어미는 '하십시오'에 맞춰 최대한으로 통일하였다. 관리자가 입력한 첫번째 string의 종결 어미였기 때문에 이를 중심으로 한 것이다.
 | &nbsp;&nbsp;&nbsp;&nbsp; 종결 어미 | 하십시오체&nbsp; &nbsp;&nbsp;&nbsp;|
@@ -89,35 +100,34 @@ Copyright © 2020 Jeong Sebin, Ajou University
 | 청유문| -(ㅂ)시다 |
 
 &nbsp;4. 번역이 통일되지 않은 단어를 상황에 맞게 통일시켰다.
+&nbsp;
 ex) Transition
 - transition이 PSBT로 쓰일경우 -> 트랜지션
->- transitiion이 그냥 홀로 쓰인 경우 -> 거래
+- transitiion이 그냥 홀로 쓰인 경우 -> 거래
 
 &nbsp;5. 한글화를 최대화시키고 번역을 매끄럽게 하기 위해 사전에 없는 단어들을 임의로 번역하기도 하였다.
-> - Fallbackfee = 고장대체 수수료
-> - Replace-By-Fee 수수료-대체
-> - mempool 메모리 풀
-> - keypoolrefill : 키 풀 리필
-> - addrMan: 어드맨(bitcoin storage. address of other peers)
-> - satoshi: 비트코인 단위 사토시
+- Fallbackfee = 고장대체 수수료
+- Replace-By-Fee 수수료-대체
+- mempool 메모리 풀
+- keypoolrefill : 키 풀 리필
+- addrMan: 어드맨(bitcoin storage. address of other peers)
+- satoshi: 비트코인 단위 사토시
   
-
-6. 반면에 비트코인에서 전용적으로 사용하는 용어나, 프로그래밍과 관련된 단어는 번역하지 않기도 하였다.
->- Tor, onion, asmap 등의 고유어로 사용되는 소프트웨어
->- Ipv6 Ipv4와 같은 컴퓨터 용어
->- -reindex-chainstate 등의 앞에 -가 붙은 bitcoin의 코딩 언어
->- SOCKS5 등의 프로토콜
->- uacomments, pre split keypool 등 번역했을 때 원래의 의미를 해친다고 생각하는 단어
+&nbsp;6. 반면에 비트코인에서 전용적으로 사용하는 용어나, 프로그래밍과 관련된 단어는 번역하지 않기도 하였다.
+- Tor, onion, asmap 등의 고유어로 사용되는 소프트웨어
+- Ipv6 Ipv4,SOCKS5와 같은 약자가 사용되어 번역하면 너무 길어지는 단어
+- -reindex-chainstate 등의 앞에 -가 붙은 bitcoin의 코딩 단어
+- uacomments, pre split keypool 등 구글에 검색했을때 비트코인 사용자들이 영어로 사용하는 단어 
  
 &nbsp;
 ## 결과물 <a id="chapter-4"></a>
- 
- https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000
+![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/blob/master/image/transifex_bitcoin_my_translations.PNG)
+< https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000>
 
 -  직접적으로 수정한 string은 필터 창에 "translator: jsebin1327"을 검색하여 찾아볼 수 있다.
  혹은 Users -> Translator -> jsebin1327 으로도 검색이 가능하다.
  - 총 270개의 string, 2439개의 단어를 손보았으며, 나머지는 다른 분들의 번역을 참고하여 최대한 살리려고 노력하였다.
- 
+
 &nbsp;
 ## 결론 및 소감 <a id="chapter-5"></a>
 &nbsp;기말 프로젝트 승인을 받을 때, 번역할 string의 양이 적어 부족해보인다는 의견을 수렴하여 0.20x와 0.21x를 한꺼번에 번역하려고 하였다. 그러나 0.21x가 0.20의 업그레이드 버전이며 0.21x에 0.20x의 string이 모두 포함되어있다는 것을 알게 된 뒤 번역할 양이 더 많고 업그레이드 된 0.21.x만을 번역하기로 하였다. 0.21.x 프로젝트의 예정일은 12월 3일임에 비해 0.20.x의 경우 1년전에 마감된 프로젝트라는 점 또한 이 결정을 도왔다. 그러나 아직 0.21.x가 다운로드 페이지에 보이지 않는 것을 보면 0.20.x의 번역을 우선시 하는 것이 나았을까라는 생각이 들었다.
@@ -149,7 +159,7 @@ ex) Transition
 ---
 #### 2. 추가 참고문
 1. 프리마베라 드 필리피 외 1명(2020). 코드가 지배하는 세상이 온다. 미래의 창
-2. 위키백과. 비트코인 위키 - <https://en.bitcoin.it/wiki/Main_Page>
+2. 위키백과. 비트코인 위키. <https://en.bitcoin.it/wiki/Main_Page>
 3. Transifex 사용법. <https://docs.transifex.com/intro/transifex-terms>
 4. Github. 비트코인 0.21.x 번역 일정. <https://github.com/bitcoin/bitcoin/issues/18947>
 5. 국립국어원. 상대높임법2. <https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=62639>
