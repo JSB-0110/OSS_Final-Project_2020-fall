@@ -16,12 +16,13 @@ Copyright © Bitcoin Project 2009-2020 Released under the MIT license
 Copyright © 2020 Jeong Sebin, Ajou University 
 
 ## 목차
-* [서론](##서론)
-* [이론적 배경](##이론적-배경)
-* [본론](##본론)
-* [결과물](##결과물)
-* [결론 및 소감](##결론-및-소감)
-* [참고 자료](##참고-자료)
+[TOC]
+* [서론](#서론)
+* [이론적 배경](#이론적-배경)
+* [본론](#본론)
+* [결과물](#결과물)
+* [결론 및 소감](#결론-및-소감)
+* [참고 자료](#참고-자료)
 
 &nbsp;
 ## 서론
@@ -97,11 +98,12 @@ Copyright © 2020 Jeong Sebin, Ajou University
 &nbsp;2. 프로젝트 매니저의 공지사항을 숙지하였다.
 - &는 위치 네비게이션을 위한 문자이기 때문에 무조건 지정된 글자의 앞에 두어야한다. 따라서 Warning을 무시하고 괄호를 사용하였다.
 - %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다.
-- %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다. 
+
 ![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_2.bmp)
 
 
-- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. %가 두개 이상 사용되었을 경우 순서가 바뀌면 안 된다라는 뜻이다. 
+- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. %가 두개 이상 사용되었을 경우 순서가 바뀌면 안 된다라는 뜻이다.
+
 ![transifex_anouncement_1](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_1.bmp)
 
 
