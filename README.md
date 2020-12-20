@@ -12,15 +12,10 @@ Copyright © Bitcoin Project 2009-2020 Released under the MIT license
 Copyright © 2020 Jeong Sebin, Ajou University 
 
 ## 목차
-* [서론](#chapter-1) 
-* [이론적 배경](#chapter-2) 
-* [본론](#chapter-3)
-* [결과물](#chapter-4)
-* [결론 및 소감](#chapter-5)
-* [참고자료](#chapter-6)
+[TOD]
 
 &nbsp;
-## 서론 <a id="chapter-1"></a>
+## 서론
 &nbsp;&nbsp;구글 검색창에 “과거로 돌아가면”을 입력하면 뒤에 “비트코인”이 따라붙은 자동검색어가 뜬다. 급상승과 하락을 짧은 기간 내에 겪은 대표적인 디지털 화폐 비트코인. 돈과 투자에 관심이 없는 사람조차도 비트코인에 대해서 한 번씩은 들어봤을 것이다. 0과 1로 이루어진 데이터 쪼가리로 가치도 없을 것 같은 이 가상의 화폐는 어느 날 갑자기 개당 현실 돈의 몇 천만씩으로 가격이 뛰면서 유명해졌다. 로또보다 대박 터진 잭팟으로 이목을 끈 비트코인의 성공에 비슷한 디지털 화폐인 이더리움, 리플 등도 뒤따라 재조명받았고, 암호 화폐와 관련된 블록체인 기술의 연구도 활성화되었다.
 
 &nbsp;올해 초까지만 해도 비트 코인의 전망은 그리 밝지 않았다. 그러나 간편 결제 서비스 페이팔(Paypal)이 비트코인 등 암호 화폐와의 거래를 지원한다는 소식 이후 비트코인 가격이 급등하기 시작하더니 현재는 2달 전의 가격 두배를 넘어 3년만에 최고점을 찍었다. 2차 열풍이 불고 있는 것이다.
@@ -28,7 +23,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
 &nbsp;나는 평소에 비트 코인이나 주식 등 투자에 많은 관심을 가지고 있으나 아직 학생 신분이며, 여윳돈 또한 별로 없고, 투자의 위험성이 두려워 제대로 투자에 참여해 본 경험은 없다. 개인적으로 투자를 시작하기 위해서는 먼저 대상에 대해 잘 알아야 한다고 생각해서 아직 도전하지 않기도 하였다. 그래서 이번 기회를 빌려 비트 코인을 번역하고 알아가는 시간을 가지게 되었다.
 
 &nbsp;
-## 이론적 배경 <a id="chapter-2"></a>
+## 이론적 배경
 ### 비트 코인은 무엇인가?
 
 >"비트코인은 새로운 지불 시스템이자 완전한 디지털 화폐를 가능하게 하는 합의된 네트워크입니다. 중앙 권력이나 중간 상인이 없이 사용자에 의해 작동하는 최초의 분권화된 P2P 지불망입니다. 사용자 관점에서 볼 때, 비트코인은 인터넷 현금과 매우 유사합니다. 비트코인은 현존하는 가장 탁월한 삼식 부기 시스템이기도 합니다." 
@@ -52,7 +47,7 @@ Copyright © 2020 Jeong Sebin, Ajou University
  
 
 &nbsp;
-## 본론 <a id="chapter-3"></a>
+## 본론
 ### 번역 대상: Bitcoin Core 0.21.x
 ![transifex_bitcoin_main_screen](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_main_screen.PNG)
 
@@ -90,16 +85,16 @@ Copyright © 2020 Jeong Sebin, Ajou University
 
 
 &nbsp;2. 프로젝트 매니저의 공지사항을 숙지하였다.
-
-![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_2.bmp)
 - &는 위치 네비게이션을 위한 문자이기 때문에 무조건 지정된 글자의 앞에 두어야한다. 따라서 Warning을 무시하고 괄호를 사용하였다.
 - %들은 string이 들어가야 하는 곳이므로 ASCII percent-sign이 들어가야 한다. 마찬가지로 s,n등 뒤따라오는 단어가 정확히 원본과 같아야한다.
+![transifex_anouncement_2](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_2.bmp)
 
+- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. %가 두개 이상 사용되었을 경우 순서가 바뀌면 안 된다라는 뜻이다. 
 ![transifex_anouncement_1](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_anouncement_1.bmp)
-- %는 숫자가 아닌 이상 영어와 어순이 비슷하게 번역해야한다. 순서가 바뀌면 안 된다는 뜻이다.
+
 
 &nbsp;3. 종결 어미는 '하십시오'에 맞춰 최대한으로 통일하였다. 관리자가 입력한 첫번째 string의 종결 어미였기 때문에 이를 중심으로 한 것이다.
-&nbsp;
+
 | 종결 어미 | 하십시오체 |
 | ------ | ------ |
 | 평서문 | -(습/ㅂ)니다 |
@@ -128,7 +123,8 @@ ex) Transition
 - uacomments, pre split keypool 등 구글에 검색했을때 비트코인 사용자들이 영어로 사용하는 단어 
  
 &nbsp;
-## 결과물 <a id="chapter-4"></a>
+## 결과물
+
 ![transifex_bitcoin_my_translations](https://git.ajou.ac.kr/JSB/oss_final-project_2020-fall/-/raw/master/image/transifex_bitcoin_my_translations.PNG)
 < https://www.transifex.com/bitcoin/bitcoin/viewstrings/#ko/qt-translation-021x/302586000>
 
@@ -137,7 +133,8 @@ ex) Transition
 - 검색되지 않은 string 또한 모두 검토한 string들이다.
 
 &nbsp;
-## 결론 및 소감 <a id="chapter-5"></a>
+## 결론 및 소감
+
 &nbsp;기말 프로젝트 승인을 받을 때, 번역할 string의 양이 적어 부족해보인다는 의견을 수렴하여 0.20x와 0.21x를 한꺼번에 번역하려고 하였다. 그러나 0.21x가 0.20의 업그레이드 버전이며 0.21x에 0.20x의 string이 모두 포함되어있다는 것을 알게 된 뒤 번역할 양이 더 많고 업그레이드 된 0.21.x만을 번역하기로 하였다. 0.21.x 프로젝트의 예정일은 12월 3일임에 비해 0.20.x의 경우 1년전에 마감된 프로젝트라는 점 또한 이 결정을 도왔다. 그러나 아직 0.21.x가 다운로드 페이지에 보이지 않는 것을 보면 0.20.x의 번역을 우선시 하는 것이 나았을까라는 생각이 들었다.
 
 &nbsp;Transifex를 이번 학기에 처음 알게 되어, 낯선 것이 너무 많아 실수를 많이 하였는데, 가장 큰 실수는 번역 팀을 헷갈린 것이었다고 생각한다. 나름 철저히 준비를 하고 조사를 하며 다른 번역가들과도 소통을 하기 위해 텔레그램에 가입까지 하였는데, 알고보니 내가 참가한 방이 Bitcoin.org번역가들을 위한 방이었다. 의욕만 너무 앞선 것을 반성한다. Transifex에 Bitcoin 관련 프로젝트가 두 개 존재한다는 것도 이 실수를 통해 알게 되었다. 나중에서야 원 프로젝트의 매니저를 찾고 Bitcoin core 번역가들을 위한 gmail 공지방에 가입하였다.
@@ -158,7 +155,7 @@ ex) Transition
 &nbsp;Bitcoin 프로젝트는 정기적으로 번역 프로그램을 열고 있으니 다음번에도 시간을 낼 수 있다면 Reviewer 신청까지 받아 확실하게 참여해보고 싶다. 아니면 Bitcoin.org의 사이트 번역에도 참여하면 재미있을 것 같다. 앞으로도 가끔 transifex에 들려 관심가는 프로젝트를 둘러봐야겠다.
 
 &nbsp;
-## 참고 자료 <a id="chapter-6"></a>
+## 참고 자료
 
 #### 1. 사전
 1. TTA 용어사전 - <http://word.tta.or.kr/main.do>
